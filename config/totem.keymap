@@ -17,9 +17,9 @@
 
         Number {
             bindings = <
-         &kp N1        &kp N2     &kp N3        &kp N4    &kp N5       &bt BT_SEL 0       &bt BT_NXT     &kp C_VOLUME_UP  &kp C_VOL_DN  &kp K_MUTE
-         &kp N6        &kp N7     &kp N8        &kp N9    &kp N0       &bt BT_CLR         &trans         &trans           &kp SEMI      &kp APOS
-&kp TAB  &kp LS(PLUS)  &kp MINUS  &kp LS(STAR)  &kp FSLH  &kp EQUAL    &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp DELETE       &trans        &trans      &trans
+         &kp N1        &kp N2     &kp N3        &kp N4    &kp N5       &bt BT_SEL 0       &bt BT_NXT     &kp UP_ARROW  &kp C_VOL_DN     &kp C_VOL_UP
+         &kp N6        &kp N7     &kp N8        &kp N9    &kp N0       &bt BT_CLR         &kp LEFT       &kp DOWN      &kp RIGHT_ARROW  &kp SEMICOLON
+&kp TAB  &kp LS(PLUS)  &kp MINUS  &kp LS(STAR)  &kp FSLH  &kp EQUAL    &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp DELETE    &trans           &trans         &trans
                                   &trans        &trans    &trans       &kp RIGHT_SHIFT    &trans         &trans
             >;
         };
