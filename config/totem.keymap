@@ -26,10 +26,19 @@
 
         gaming {
             bindings = <
-        &kp TAB         &kp Q  &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
-        &kp LEFT_SHIFT  &kp A  &kp S   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL       &kp X  &kp C   &kp V   &kp G        &trans  &trans  &trans  &trans  &trans  &trans
-                               &tog 1  &trans  &kp SPACE    &trans  &trans  &to 0
+        &kp TAB         &kp Q  &kp W           &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
+        &kp LEFT_SHIFT  &kp A  &kp S           &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL       &kp X  &kp C           &kp V   &kp G        &trans  &trans  &trans  &trans  &trans  &trans
+                               &lt 3 NUMBER_1  &trans  &kp SPACE    &trans  &trans  &to 0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
     };
