@@ -99,9 +99,9 @@
 
         layer_1 {
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &bt BT_NXT      &kp PAGE_DOWN  &kp UP_ARROW   &kp PG_UP        &trans
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &bt BT_NXT      &kp PAGE_DOWN  &kp UP_ARROW   &kp PG_UP        &sys_reset
         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp N0          &bt BT_SEL 0    &kp LEFT       &kp DOWN       &kp RIGHT_ARROW  &trans
-&trans  &kp EQUAL     &kp MINUS     &kp SLASH     &kp ASTERISK  &trans          &bt BT_CLR_ALL  &kp RCTRL      &kp RIGHT_ALT  &kp DELETE       &trans  &trans
+&trans  &kp EQUAL     &kp MINUS     &kp SLASH     &kp ASTERISK  &trans          &bt BT_CLR_ALL  &kp RCTRL      &kp RIGHT_ALT  &kp DELETE       &trans      &trans
                                     &trans        &trans        &trans          &trans          &trans         &to 2
             >;
         };
